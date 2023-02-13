@@ -1,0 +1,52 @@
+{
+  "name": "remote",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.6",
+    "axios": "^0.24.0",
+    "bootstrap": "^5.2.3",
+    "core-js": "^3.6.5",
+    "jquery": "^3.6.3",
+    "qs": "^6.10.2",
+    "sass-loader": "^10.1.1",
+    "vue": "^3.0.0",
+    "vue-router": "^4.0.12",
+    "vue-sweetalert2": "^5.0.2"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-router": "^4.5.15",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.0.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^8.6.0",
+    "eslint-plugin-vue": "^7.0.0",
+    "sass": "^1.48.0"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
