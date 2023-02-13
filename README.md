@@ -1,7 +1,6 @@
-# 朝陽工館遠端登入系統E620
+# 朝陽工館遠端登入系統 E620
 
-
-## 登入網址
+## 登入連結
 
 [朝陽工管遠端登入系統 E620](https://vmsl.iem.cyut.edu.tw/remote/dist/#/)
 
@@ -15,11 +14,11 @@
 
 ---
 
-## 租用介面
+## 租借介面
 ![Borrow UI.](/figure/borrow_UI.png)
-* 點選左上角 ( 時鐘icon ) 圖案可查看當前開放時間
-* 點選姓名右邊 ( 鉛筆icon ) 可編輯使用者密碼
-* 點選右上角 ( 箭頭icon ) 登出當前使用者
+* 點選左上角 <img src="./figure/clock-solid.svg" width="14px"> 圖示可查看當前開放時間
+* 點選姓名右邊 <img src="./figure/pen-to-square-solid.svg" width="14px"> 圖示可編輯使用者密碼
+* 點選右上角 <img src="./figure/right-from-bracket-solid.svg" width="14px"> 圖示登出當前使用者
 * 點選下方 Borrow 按鈕即可租借電腦
 
 ---
@@ -30,13 +29,13 @@
 
 ![Download UI.](/figure/download_UI.png)
 
-Windows RDP檔案連線介面
+Windows RDP 檔案連線介面
 
 ![Login UI.](/figure/rdp.png)
 
 ---
 
-## 開放時間(預設)
+## 開放時間 (預設)
 
 | Day | 開始 | 結束 |
 |:-:|:-:|:-:|
@@ -63,13 +62,9 @@ Windows RDP檔案連線介面
 
 ![manager UI.](/figure/manager.png)
 
-
-
-
-
 * 後台管理功能
-    * 新增使用者
     * 編輯開放時間
     * 編輯使用者租用狀態
-    * 批量匯出匯入使用者
-    * 學生登入與租用紀錄
+    * 新增使用者
+    * 批量匯入/匯出使用者資料
+    * 學生登入與租借紀錄
